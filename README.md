@@ -1,4 +1,4 @@
-# Main
+# Sukeltaja
 
 ## This is the main repository for Sukeltaja-App.
 > Here you can navigate to documents and repositories.
