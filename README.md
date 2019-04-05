@@ -3,7 +3,12 @@
 ## This is the main repository for Sukeltaja-App.
 > Here you can navigate to documents and repositories.
 This project is made by University of Helsinki students on Software Engineering Project course.
-**STATUS: Development in progress.**
+
+
+```diff
++STATUS: Development in progress.
+```
+
 
 #### Mobile app for divers diving in Finland.
 Application to be installed via Google's Play Store and Apple's App Store; links to be added.
