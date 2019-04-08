@@ -11,7 +11,7 @@ This project is made by University of Helsinki students on Software Engineering 
 
 
 #### Mobile app for divers diving in Finland.
-Application to be installed via Google's Play Store and Apple's App Store; links to be added.
+Installation will be through App Store (iOS) or Play Store (Android). Links to be added in future.
 
 
 ### Navigation links
@@ -25,3 +25,9 @@ Application to be installed via Google's Play Store and Apple's App Store; links
   - Programmed with [Node.js](https://nodejs.org/)
 * [Back office](https://github.com/Sukeltaja-App/sukeltaja-bo)
   - Programmed with [React](https://reactjs.org/)
+  
+  
+### Documentation
+* Documents for this project can be found on the  [documentation folder](https://github.com/Sukeltaja-App/main/tree/master/documentation)
+     
+* Product backlog can be found on these [Google Sheets](https://docs.google.com/spreadsheets/d/1u03KFYHHtcJAUbRn-JUiW5gUus9soZLCMObtdGLhcyA/)  
