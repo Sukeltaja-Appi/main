@@ -1,7 +1,7 @@
 # Info for future developers
 
 Here is a brief guide for the next developers.
-The project consists off three diffrent repositories [Backend](https://github.com/Sukeltaja-App/sukeltaja-backend),
+The project consists of three diffrent repositories [Backend](https://github.com/Sukeltaja-App/sukeltaja-backend),
 [Frontend](https://github.com/Sukeltaja-App/sukeltaja-frontend)(Mobile-frontend) and
 [Back office](https://github.com/Sukeltaja-App/sukeltaja-bo)(browser-frontend).
 
