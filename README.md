@@ -24,8 +24,8 @@ Installation will be through App Store (iOS) or Play Store (Android). Links to b
 [![Codacy Badge](https://api.codacy.com/project/badge/Coverage/581f1d911cec46adbaede7cca62ed9ab)](https://www.codacy.com/app/luupanu/sukeltaja-backend?utm_source=github.com&utm_medium=referral&utm_content=Sukeltaja-App/sukeltaja-backend&utm_campaign=Badge_Coverage)
   - Programmed with [Node.js](https://nodejs.org/)
 * [Back office](https://github.com/Sukeltaja-App/sukeltaja-bo)
-  - Programmed with [React](https://reactjs.org/)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/8a2ef04cee584e6badd3b8e9cc30a71d)](https://www.codacy.com/app/Sukeltaja-App/sukeltaja-bo?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Sukeltaja-App/sukeltaja-bo&amp;utm_campaign=Badge_Grade)
+  - Programmed with [React](https://reactjs.org/)
   
   
 ### Documentation
