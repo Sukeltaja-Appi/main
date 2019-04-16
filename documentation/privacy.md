@@ -1,6 +1,6 @@
 ## Privacy policy
 
-Data gathered by the app will be visible to admins of Museovirasto and Sukeltajaliitto.
+Data gathered by the app will be visible to admins of Meriarkeologinen Seura (https://www.mas.fi/)
 * Data will be collected anonymously: personal informations (including Username, Password etc.)
 will not be linked to the collected events nor collected separately.
 * Admins may contact you via email (mas@mas.fi), but this can be revoked.
