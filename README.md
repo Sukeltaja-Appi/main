@@ -1,5 +1,5 @@
  
-![SukeltajaApp](https://lh3.googleusercontent.com/mX3DhddmgvqSKXtRPmb4dDj0vDFsdNpyolO4kWOsclWNULNWb66KZVHBrbDgEIMSzw=s180-rw)
+[![SukeltajaApp](https://lh3.googleusercontent.com/mX3DhddmgvqSKXtRPmb4dDj0vDFsdNpyolO4kWOsclWNULNWb66KZVHBrbDgEIMSzw=s180-rw)](https://play.google.com/store/apps/details?id=com.sukeltaja.sukeltajaapp)
 ## This is the main repository for Sukeltaja-App.    
 > Here you can navigate to documents and repositories.
 This project is made by University of Helsinki students on Software Engineering Project course.
