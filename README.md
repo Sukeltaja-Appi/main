@@ -11,7 +11,7 @@ This project is made by University of Helsinki students on Software Engineering 
 
 
 #### Mobile app for divers diving in Finland.
-Installation will be through App Store (iOS) or Play Store (Android). Links to be added in future.
+Installation will be through App Store (iOS) or [Play Store](https://play.google.com/store/apps/details?id=com.sukeltaja.sukeltajaapp) (Android). Links to be added in future.
 
 
 ### Navigation links
