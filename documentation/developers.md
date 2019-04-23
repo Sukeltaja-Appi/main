@@ -26,11 +26,6 @@ This can be done on by typing ```npm install``` on the root folder (Node needs t
 Backend can be started with ```npm run watch``` to run in development mode.    
 Frontend can be started with ```npm start```
 
-### Frontend
-
-### Backoffice
-
-
 ### Backend
 
 * Backend runs currently on [Heroku](https://www.heroku.com/) and data is stored in MongoDB @ [Mlab](https://mlab.com/).
