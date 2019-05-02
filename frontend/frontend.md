@@ -1,4 +1,4 @@
-# sukeltaja-frontend
+# sukeltaja-frontend documentation
 
 ## 🐞 Known issues
 
@@ -10,13 +10,13 @@ This is [an issue with react-native-dotenv](https://github.com/zetachang/react-n
 
 More `.env` problems, a hacky hotfix was to create an `.env.development` with only the required keys and NO values whatsoever. Probably not the best solution.
 
-## 📖 Notes on packages used
+## 📖 Notes on the packages used
 
 A link to the documentation of each package is provided in each heading.
 
 ### [axios](https://github.com/axios/axios)
 
-An http client used to make http requests. Basically a replacement for Fetch API.
+An http client used to make http requests. Basically a replacement for [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API).
 
 ### [axios-retry](https://github.com/softonic/axios-retry)
 
@@ -54,4 +54,4 @@ Used to communicate through [WebSockets](https://developer.mozilla.org/en-US/doc
 
 ### [tcomb-form-native](https://github.com/gcanti/tcomb-form-native)
 
-Styled and auto-validated forms for React Native. Not maintained that much anymore, and at least on iOS Expo (production mode) opening views with forms [dropped some frames](https://github.com/Sukeltaja-App/sukeltaja-frontend/issues/18). Might need replacement in the future.
+Stylized and auto-validated forms for React Native. Not maintained that much anymore, and at least on iOS (Expo production mode) opening views with forms [dropped some frames](https://github.com/Sukeltaja-App/sukeltaja-frontend/issues/18). Might need a replacement in the future.
