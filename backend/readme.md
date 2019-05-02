@@ -33,4 +33,3 @@ Backend can be started with ```npm run watch``` to run in development mode.
 * Tokens are created with [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken).
   ```diff
   -Currently tokens are never revoked, and this issue should be fixed in future.
-````
