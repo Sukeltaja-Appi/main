@@ -1,5 +1,7 @@
 # sukeltaja-frontend documentation
 
+This document serves as a design documentation of the user interface of Sukeltaja: what was intended, what succeeded or failed, and it lists some possible ideas for the future.
+
 ## The basics
 
 The purpose of Sukeltaja is to help divers in Finland organize and plan ahead dive events, act as a dive log book, and create more social interactions through social features of the app.
@@ -24,11 +26,11 @@ The Sukellus tab was designed to have everything you would need to do when handl
 
 <img src="images/StartEventScreen.png" width="200">
 
-This screen was designed to always be the fastest and most convenient method to just start diving. It should always strive to be as simplistic as possible with a minimal amount of clicks required to get to the action.
+This screen was designed to always be the fastest and most convenient method to just start diving. It should always strive to be as simplistic as possible with a minimal amount of clicks required to "just get into the action".
 
 **Possible new feature(s):**
 
-- User should be able to pick an event here that is already in their events list: "Valitse tapahtuma".
+- User should be able to pick an events here that is already in their events list: "Valitse tapahtuma".
 
 #### TargetScreen.js
 
@@ -52,7 +54,7 @@ The main purpose of the map is of course to assist in navigation, but the map co
 
 1. During an ongoing event, it could be possible to show all divers that are currently diving on the map. (social use!)
 2. A diver could click a spot from the map to make a notification about a shipwreck (hylkyilmoitus) to Museovirasto.
-3. A diver could click a spot from the map and create their own, new targets that would be private: visible only for them.
+3. A diver could click a spot from the map and create their own new targets that would be private, i.e. visible only for them.
 
 #### MapScreen.js
 
