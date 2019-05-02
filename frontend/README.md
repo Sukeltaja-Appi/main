@@ -41,6 +41,6 @@ Or you can install [Android Studio](https://developer.android.com/studio) / [XCo
 
 ### expo-cli
 
-`expo-cli` is the command line interface for expo. Run `expo help` to get a list of commands to use. Most of the time you will be only starting the server (through `npm start`) or making a new build **(insert how to here)**
+`expo-cli` is the command line interface for expo. Run `expo help` to get a list of commands to use. Most of the time you will be only starting the server (through `npm start`) or making a new build with expo `build:android` | `expo build:ios`. Configurations for expo build should be added on app.json on the root folder of the repository.
 
 `expo eject` can be used to eject the project from Expo, providing you with native projects that can be opened and built in Xcode and Android Studio. This can be done if the project desperately needs a native module that Expo does not support. ⚠️**WARNING!**⚠️ You probably don't ever have to do this. Make sure that you understand what you are doing. [More info here](https://docs.expo.io/versions/latest/expokit/eject/).
