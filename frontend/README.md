@@ -19,13 +19,13 @@ The frontend is developed using [React Native](https://facebook.github.io/react-
 
 ### Debugging
 
-There's some very good advice about debugging in [Expo's website](https://docs.expo.io/versions/latest/workflow/debugging/), read it!
+There's some very good advice about debugging in [Expo's website](https://docs.expo.io/versions/latest/workflow/debugging/).
 
 Supposedly debugging all of Redux, props and state works using [react-native-debugger](https://github.com/jhen0409/react-native-debugger). This has not been tested by us, instructions are on the Expo website link above.
 
-Remember that if you ever need to inspect props or state, you can use Expo's `Debug Remote JS` in conjunction with [react-devtools](https://github.com/facebook/react-devtools)! This slows down the app considerably, so you might not want to do this all the time.
+If you ever need to inspect props or state, you can use Expo's `Debug Remote JS` in conjunction with [react-devtools](https://github.com/facebook/react-devtools). This slows down the app considerably, so you might not want to do this all the time.
 
-Expo features live reloading and hot reloading, use them! There's also [a very handy performance monitor](https://docs.expo.io/versions/v28.0.0/react-native/performance/), but remember to never test performance on Development mode, as it's considerably slower. Remember that mobile apps should run at a buttery-smooth 60 frames per second all the time!
+Expo features live and hot reloading. There's also [a very handy performance monitor](https://docs.expo.io/versions/v28.0.0/react-native/performance/), but you shouldn't test performance on Development mode, as it's considerably slower. All mobile apps should run at 60 frames per second all the time.
 
 ### React Native
 
@@ -35,12 +35,12 @@ React Native is a framework to develop mobile apps using [JavaScript](https://de
 
 Expo is a set of development tools used with React Native to streamline React Native development.
 
-You can download the Expo Client to your smartphone in order to develop with a real device and enjoy features such as live/hot reloading, inspecting elements, testing performance and debugging.
+Expo Client can be downloaded to a smartphone in order to develop with a real device and enjoy features such as live/hot reloading, inspecting elements, testing performance and debugging.
 
 Or you can install [Android Studio](https://developer.android.com/studio) / [XCode](https://developer.apple.com/xcode/) and test your program using iOS or Android simulators.
 
 ### expo-cli
 
-`expo-cli` is the command line tools for expo. Run `expo help` to get a list of commands to use. Most of the time you will be only starting the server (through `npm start`) or making a new build **(insert how to here)**
+`expo-cli` is the command line interface for expo. Run `expo help` to get a list of commands to use. Most of the time you will be only starting the server (through `npm start`) or making a new build **(insert how to here)**
 
-`expo eject` can be used to eject the project from Expo, providing you with native projects that can be opened and built in Xcode and Android Studio. This can be done if the project desperately needs a native module that Expo does not support. ⚠️ WARNING! ⚠️ You probably shouldn't ever have to do this. Make sure you understand what you are doing. [More info here](https://docs.expo.io/versions/latest/expokit/eject/).
+`expo eject` can be used to eject the project from Expo, providing you with native projects that can be opened and built in Xcode and Android Studio. This can be done if the project desperately needs a native module that Expo does not support. ⚠️WARNING!⚠️ You probably should not ever have to do this. Make sure that you understand what you are doing. [More info here](https://docs.expo.io/versions/latest/expokit/eject/).

@@ -1,16 +1,16 @@
 # sukeltaja-frontend
 
-## Known issues
+## 🐞 Known issues
 
 ### Changes to `.env` files are not updated
 
-Sadly this is [an issue with react-native-dotenv](https://github.com/zetachang/react-native-dotenv#faq). Manually edit and re-save the file that imports the environment variables from `react-native-dotenv`. We didn't during the project find any better alternative to replace [dotenv](https://github.com/motdotla/dotenv), which does not run on React Native.
+This is [an issue with react-native-dotenv](https://github.com/zetachang/react-native-dotenv#faq). Manually edit and re-save the file that imports the environment variables from `react-native-dotenv`. We didn't during the project find any better alternative to replace [dotenv](https://github.com/motdotla/dotenv), which does not run on React Native.
 
 ### "SyntaxError: Try to import dotenv variable..." when running tests in Travis
 
 More `.env` problems, a hacky hotfix was to create an `.env.development` with only the required keys and NO values whatsoever. Probably not the best solution.
 
-## Notes on packages used
+## 📖 Notes on packages used
 
 A link to the documentation of each package is provided in each heading.
 
@@ -24,7 +24,7 @@ An axios plugin that retries failed requests. We used this originally due to Her
 
 ### [luxon](https://moment.github.io/luxon/docs/index.html)
 
-A powerful wrapper to deal with JavaScript dates and times. Has built-in localization which has been used in the frontend, but [React Native for Android doesn't support intl out of the box](https://moment.github.io/luxon/docs/manual/install.html). JavaScript natively does not have support for date formatting, and to my knowledge has some problems with leap years when adding hours to a DateTime for example.
+A powerful wrapper to deal with JavaScript dates and times. Has built-in localization which has been used in the frontend, but [React Native for Android doesn't support intl out of the box](https://moment.github.io/luxon/docs/manual/install.html).
 
 ### [react-native-elements](https://react-native-training.github.io/react-native-elements/docs/overview.html)
 
@@ -46,7 +46,7 @@ Wraps [react-native-maps](https://github.com/react-native-community/react-native
 
 Used to navigate between different views in the app. The component folders have a file called `index.js` to most of the time handle the navigation. [StackNavigators](https://reactnavigation.org/docs/en/stack-navigator.html) and [SwitchNavigators](https://reactnavigation.org/docs/en/switch-navigator.html) should cover most of your needs.
 
-Sometimes using a conditional return is favorable compared to using SwitchNavigators, for example if you need to check that a user is logged in before seeing a screen. Make sure to use a class component and give the appropriate router to the component as a static variable. And finally, pass props to the component. **(insert relevant links here)**
+Sometimes using a conditional return is favorable compared to using SwitchNavigators, if for example you need to check that a user is logged in before they're allowed on a screen. Make sure to use a class component and give the appropriate router to the component as a static variable. And finally, pass props to the component. **(insert relevant links here)**
 
 ### [socket.io-client](https://github.com/socketio/socket.io-client)
 
