@@ -31,5 +31,9 @@ Backend can be started with ```npm run watch``` to run in development mode.
   - Testing uses currently real database @ [MongoDB Atlas](https://www.mongodb.com/), and sometimes fails when two sets of same tests run simultaneously. (Eg. pullrequests testing current branch + merge branch)
   - Tests create and store mock data to database before and during the tests.
 * Tokens are created with [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken).
+
+
+#### Issues to be fixed
+* 
   ```diff
   -Currently tokens are never revoked, and this issue should be fixed in future.
