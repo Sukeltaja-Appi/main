@@ -29,6 +29,8 @@ Installation will be through App Store (iOS) or [Play Store](https://play.google
   
   
 ### Documentation
-* Documents for this project can be found on the  [documentation folder](https://github.com/Sukeltaja-App/main/tree/master/documentation)
+Documents for this project can be found here.
+* [Backend documentation](https://github.com/Sukeltaja-App/main/tree/luupanu/backend)
+* [Frontend documentation](https://github.com/Sukeltaja-App/main/tree/luupanu/frontend)
      
 * Product backlog can be found on these [Google Sheets](https://docs.google.com/spreadsheets/d/1u03KFYHHtcJAUbRn-JUiW5gUus9soZLCMObtdGLhcyA/)  
