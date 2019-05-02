@@ -54,4 +54,4 @@ Used to communicate through [WebSockets](https://developer.mozilla.org/en-US/doc
 
 ### [tcomb-form-native](https://github.com/gcanti/tcomb-form-native)
 
-Styled and auto-validated forms for React Native. Not maintained that much anymore, and at least on Expo (production mode) opening views with forms [dropped some frames](https://github.com/Sukeltaja-App/sukeltaja-frontend/issues/18). Might need replacement in the future.
+Styled and auto-validated forms for React Native. Not maintained that much anymore, and at least on iOS Expo (production mode) opening views with forms [dropped some frames](https://github.com/Sukeltaja-App/sukeltaja-frontend/issues/18). Might need replacement in the future.
