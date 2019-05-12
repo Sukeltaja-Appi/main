@@ -8,9 +8,7 @@ The current target data in the backend is parsed from a `.dbf` file obtained fro
 
 [What's WFS?](https://en.wikipedia.org/wiki/Web_Feature_Service)
 
-There were plans to add data from Museovirasto's WFS server instead of a static file. However, unlike the static file, supposedly the WFS server only contains data of shipwrecks that are over 100 years old.
-
-Probably you would need to combine the existing [targets.json](https://github.com/Sukeltaja-App/tools/blob/master/parse_mj_rekisteri/targets.json) with the data from the WFS server.
+There were plans to add data from Museovirasto's WFS server instead of a static file. However, unlike the static file, supposedly the WFS server only contains data of shipwrecks that are over 100 years old. Due to this it's highly likely you would need to combine the existing [targets.json](https://github.com/Sukeltaja-App/tools/blob/master/parse_mj_rekisteri/targets.json) with the data from the WFS server.
 
 The server address is: http://kartta.nba.fi/arcgis/services/WFS/MV_KulttuuriymparistoSuojellut/MapServer/WFSServer
 
