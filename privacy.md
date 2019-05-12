@@ -3,7 +3,7 @@
 Data gathered by the app will be visible to admins of Suomen Meriarkeologinen Seura Oy (https://www.mas.fi/).
 * Data will not be visible nor shared to public.
 * Admins may contact you via email, but this can be revoked.
-* (V.1.0.X) Your location will only be used to find closest targets to you, or to update your diving location.
+* (V.1.1.X) Your location will only be used to find closest targets to you, or to update your diving location.
 
 After registering, your username will become visible to other, registered users.
 
