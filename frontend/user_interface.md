@@ -2,7 +2,7 @@
 
 This document serves as a design documentation of the user interface of Sukeltaja: what was intended, what succeeded or failed, and it lists some possible ideas for the future.
 
-## The basics
+## 👉 The basics
 
 The purpose of Sukeltaja is to help divers in Finland organize and plan ahead dive events, act as a dive log book, and create more social interactions through social features of the app.
 
@@ -12,7 +12,7 @@ Inside the dive events the users can check the event and target details, chat an
 
 Currently users don't have much in their profile. In the future users have a count of how many dives they have performed. They can also belong to a dive club, choose their own profile picture, manage their account, integrate their account with Sukeltajaliitto, etc.
 
-## The user interface
+## 👩‍💻 The user interface
 
 The user interface is split into four different tabs visible in the bottom: Sukellus, Kartta, Tapahtumat and Käyttäjä.
 

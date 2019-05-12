@@ -10,7 +10,7 @@ This is [an issue with react-native-dotenv](https://github.com/zetachang/react-n
 
 More `.env` problems, a hacky hotfix was to create an `.env.development` with only the required keys and NO values whatsoever. Probably not the best solution.
 
-## Testing
+## 🙈 Testing
 
 Err...
 
