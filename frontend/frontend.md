@@ -50,7 +50,7 @@ Sometimes using a conditional return is favorable compared to using SwitchNaviga
 
 ### [socket.io-client](https://github.com/socketio/socket.io-client)
 
-Used to communicate through [WebSockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API) in order to update "real-time" events such as event chat, updates to events, invites to events and so on. React Native actually has [WebSocket support out of the box](https://facebook.github.io/react-native/docs/network#websocket-support), so using `socket.io` was not totally necessary, as it supposedly adds a [180 Kb overhead to every connection](https://stackoverflow.com/a/38558531).
+Used to communicate through [WebSockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API) in order to update "real-time" events such as event chat, updates to events, invites to events and so on. React Native actually has [WebSocket support out of the box](https://facebook.github.io/react-native/docs/network#websocket-support), so using `socket.io` was not totally necessary, but it is supposedly a bit more robust.
 
 ### [tcomb-form-native](https://github.com/gcanti/tcomb-form-native)
 
