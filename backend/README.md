@@ -9,6 +9,8 @@
 
 ## 🔨 Building with Back Office
 
+The back office runs on top of the backend. Building was done manually:
+
 1. `git clone https://github.com/Sukeltaja-App/sukeltaja-bo.git`
 2. `git clone https://github.com/Sukeltaja-App/sukeltaja-backend.git`
 3. `cd sukeltaja-bo`
