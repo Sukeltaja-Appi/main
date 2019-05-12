@@ -111,17 +111,17 @@ There's a search bar that narrows the visible map screen whenever possible. Clic
 - User should be able to pick the chosen target to be the target of _any_ event.
 - If a target has already been chosen for the ongoing event, zoom and center the camera on it.
 
-### ![Tapahtumat](images/tapahtumat.png)[ Tapahtumat (Events)](https://github.com/Sukeltaja-App/sukeltaja-frontend/tree/master/src/components/EventScreens)
+### ![Tapahtumat](images/tapahtumat.png)[ Tapahtumat (Events)](https://github.com/Sukeltaja-App/sukeltaja-frontend/tree/master/src/components/EventScreens/EventMenuStack)
 
 This tab was designed to be like a more general menu. As of now it only has menus dealing with events, hence the name "Tapahtumat". However one could design other things to be added here in the future as well.
 
-#### [EventMenuScreen.js](https://github.com/Sukeltaja-App/sukeltaja-frontend/blob/master/src/components/EventScreens/EventMenuScreen.js)
+#### [EventMenuScreen.js](https://github.com/Sukeltaja-App/sukeltaja-frontend/tree/master/src/components/EventScreens/EventMenuStack/EventMenuScreen.js)
 
 <img src="images/EventMenuScreen.png" width="200">
 
 Just a basic menu. There used to be a button to join an event directly here ("Liity sukellustapahtumaan"), which could be used to join an event your friends or your dive club has created. Right now you just receive event invitations to your profile tab.
 
-#### [EventListScreen.js](https://github.com/Sukeltaja-App/sukeltaja-frontend/blob/master/src/components/EventScreens/EventListScreen.js)
+#### [EventListScreen.js](https://github.com/Sukeltaja-App/sukeltaja-frontend/tree/master/src/components/EventScreens/EventMenuStack/EventListScreen.js)
 
 <img src="images/EventListScreen.png" width="200">
 
