@@ -62,7 +62,7 @@ Use the following parameters:
 </ogc:Filter>
 ```
 
-to generate a request like this:
+to generate a request that looks like this:
 
 http://kartta.nba.fi/arcgis/services/WFS/MV_KulttuuriymparistoSuojellut/MapServer/WFSServer?version=2.0.0&request=GetFeature&typeNames=Muinaisjaannokset_piste&service=wfs&propertyName=mjtunnus,inspireID,kohdenimi,kunta,laji,tyyppi,alatyyppi,ajoitus,vedenalainen,muutospvm,luontipvm,paikannustapa,paikannustarkkuus,selite,url,x,y&FILTER=%3Cogc%3AFilter%3E%0A%20%20%3COr%3E%0A%20%20%20%20%3CPropertyIsEqualTo%3E%0A%20%20%20%20%20%20%3CPropertyName%3Evedenalainen%3C%2FPropertyName%3E%0A%20%20%20%20%20%20%3CLiteral%3Ek%3C%2FLiteral%3E%0A%09%20%20%3C%2FPropertyIsEqualTo%3E%0A%20%20%20%20%3CPropertyIsEqualTo%3E%0A%20%20%20%20%20%20%3CPropertyName%3Evedenalainen%3C%2FPropertyName%3E%0A%20%20%20%20%20%20%3CLiteral%3EK%3C%2FLiteral%3E%0A%09%20%20%3C%2FPropertyIsEqualTo%3E%0A%20%20%3C%2FOr%3E%0A%3C%2Fogc%3AFilter%3E
 
@@ -85,6 +85,15 @@ Use the following parameters:
 </ogc:Filter>
 ```
 
-to generate a request like this:
+to generate a request that looks like this:
 
 http://kartta.nba.fi/arcgis/services/WFS/MV_KulttuuriymparistoSuojellut/MapServer/WFSServer?version=2.0.0&request=GetFeature&typeNames=Muinaisjaannokset_piste&service=wfs&propertyName=mjtunnus,inspireID,kohdenimi,kunta,laji,tyyppi,alatyyppi,ajoitus,vedenalainen,muutospvm,luontipvm,paikannustapa,paikannustarkkuus,selite,url,x,y&FILTER=%3Cogc%3AFilter%3E%0A%20%20%3CPropertyIsLike%20wildCard%3D%22*%22%20singleChar%3D%22.%22%20escape%3D%22%5C%22%3E%0A%20%20%20%20%3CPropertyName%3Etyyppi%3C%2FPropertyName%3E%0A%20%20%20%20%3CLiteral%3Ealusten%20hylyt*%3C%2FLiteral%3E%0A%20%20%3C%2FPropertyIsLike%3E%0A%3C%2Fogc%3AFilter%3E
+
+### List of all targets
+
+A list of all targets without any filtering. Includes only the id `mjtunnus` and type `tyyppi` of the target.
+
+Warning: this request can take minutes to complete as it returns an XML file of 37338 targets with a file size of 15.2 Mb.
+
+http://kartta.nba.fi/arcgis/services/WFS/MV_KulttuuriymparistoSuojellut/MapServer/WFSServer?version=2.0.0&request=GetFeature&typeNames=Muinaisjaannokset_piste&service=wfs&propertyName=mjtunnus,tyyppi
+
