@@ -16,7 +16,7 @@ Err...
 
 Basic unit testing was not found to be giving much value on the application.
 
-There are a number of e2e testing suites we explored such as [detox](https://github.com/wix/Detox) and [cavy](https://github.com/pixielabs/cavy), of which cavy seemed to be the easiest to configure. Unfortunately, we ran out of time implementing proper e2e testing.
+There are a number of e2e testing suites we explored such as [detox](https://github.com/wix/Detox) and [cavy](https://github.com/pixielabs/cavy), of which cavy seemed to be a lot easier to configure. Detox also did not support Android at all at the time of development. Unfortunately, we ran out of time implementing proper e2e testing.
 
 [There's an excellent blog post about how to setup cavy to run in a test environment only here](https://medium.com/magnetis-backstage/react-native-e2e-testing-with-cavy-1f1d5be1d3be).
 
