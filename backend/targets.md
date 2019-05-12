@@ -4,7 +4,7 @@
 
 The current target data in the backend is parsed from a `.dbf` file obtained from Museovirasto. The [tools folder](https://github.com/Sukeltaja-App/tools/blob/master/parse_mj_rekisteri/) has a parsed [targets.json](https://github.com/Sukeltaja-App/tools/blob/master/parse_mj_rekisteri/targets.json) file that is directly compatible with the backend.
 
-## The Museovirasto WFS Server
+## 💾 The Museovirasto WFS Server
 
 [What's WFS?](https://en.wikipedia.org/wiki/Web_Feature_Service)
 
@@ -12,7 +12,7 @@ There were plans to add data from Museovirasto's WFS server instead of a static 
 
 The server address is: http://kartta.nba.fi/arcgis/services/WFS/MV_KulttuuriymparistoSuojellut/MapServer/WFSServer
 
-## How to WFS
+## 🤔 How to WFS
 
 [There's a good general guide on accessing WFS servers here](https://docs.geoserver.org/latest/en/user/services/wfs/reference.html).
 
@@ -23,6 +23,8 @@ The server gives back an XML file (that can have a size of several megabytes!). 
 There's a list of some basic requests below. It's advisable to use a modern REST client such as [Insomnia](https://insomnia.rest/) to access the server.
 
 Happy XML parsing! 😊
+
+## 📃 List of basic WFS requests
 
 ### GetCapabilities
 
