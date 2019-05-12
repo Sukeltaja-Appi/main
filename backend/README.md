@@ -7,6 +7,19 @@
 3. `npm install`
 4. `npm run watch`
 
+## 🔨 Building with Back Office
+
+1. `git clone https://github.com/Sukeltaja-App/sukeltaja-bo.git`
+2. `git clone https://github.com/Sukeltaja-App/sukeltaja-backend.git`
+3. `cd sukeltaja-bo`
+4. `npm build`
+5. `mv build/ ../sukeltaja-backend/`
+6. `cd ../sukeltaja-backend/`
+6. `git commit -m "I built a new version"`
+7. `git push`
+
+This could (should) be automated with for example [Docker](https://www.docker.com/) in the future..
+
 ## ℹ General information
 
 Tools and frameworks used for backend:
