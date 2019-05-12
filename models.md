@@ -22,4 +22,4 @@ Inviting is done with messageObjects, which can be reused in future for other pu
 
 Dives contain location, start+end and 'owner'.
 
-Reset's are an object used for password resetting, with a 10 min expirytime.
+Reset's are an object used for password resetting, with a 10 min expirytime. This expireAfterSeconds (currently 600) index is added to MongoDB.
