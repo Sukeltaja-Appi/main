@@ -36,7 +36,7 @@ http://kartta.nba.fi/arcgis/services/WFS/MV_KulttuuriymparistoSuojellut/MapServe
 
 ### List of underwater targets
 
-It's a bit trickier to get useful data, such as a list of underwater targets. The filtering of data is done using [OGC Filter Encoding standard](https://docs.geoserver.org/stable/en/user/filter/filter_reference.html#filter-fe-reference), which is basically just XML encoded with a custom namespace.
+It's a bit trickier to get useful data, such as a list of underwater targets. The filtering of data is done using the [OGC Filter Encoding standard](https://docs.geoserver.org/stable/en/user/filter/filter_reference.html#filter-fe-reference), which is basically just XML encoded with a custom namespace.
 
 Use the following parameters:
 
