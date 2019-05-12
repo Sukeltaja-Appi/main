@@ -22,7 +22,7 @@ Only the map screen can be used without logging in. Logging in, registering, and
 
 The Sukellus tab was designed to have everything you would need to do when handling an ongoing event. Check the target or event details, modify event details if you are an admin, check weather, chat with participants, handle dives, etc.
 
-#### StartEventScreen.js
+#### [StartEventScreen.js](https://github.com/Sukeltaja-App/sukeltaja-frontend/blob/master/src/components/OngoingEventScreens/StartEventScreen.js)
 
 <img src="images/StartEventScreen.png" width="200">
 
@@ -32,7 +32,7 @@ This screen was designed to always be the fastest and most convenient method to 
 
 - User should be able to pick an event here from their events list, e.g. "Valitse tapahtuma".
 
-#### TargetScreen.js
+#### [TargetScreen.js](https://github.com/Sukeltaja-App/sukeltaja-frontend/blob/master/src/components/OngoingEventScreens/OngoingEventTabs/TargetScreen.js)
 
 <img src="images/Target.png" width="200">
 
@@ -50,7 +50,7 @@ The original design had the closest targets as a list with a dropdown button to 
 
 - User should be able to search for a target by name from a list of all targets.
 
-#### DiveScreen.js
+#### [DiveScreenStack](https://github.com/Sukeltaja-App/sukeltaja-frontend/tree/master/src/components/OngoingEventScreens/OngoingEventTabs/DiveScreenStack)
 
 <img src="images/DiveScreen.png" width="200">
 
@@ -68,7 +68,7 @@ The original design was a bit different, with your own dives at the top. There's
 
 - The dive screens could be prettier and easier to navigate.
 
-#### ChatScreen.js
+#### [ChatScreen.js](https://github.com/Sukeltaja-App/sukeltaja-frontend/blob/master/src/components/OngoingEventScreens/OngoingEventTabs/ChatScreen.js)
 
 <img src="images/ChatScreen.png" width="200">
 
@@ -80,7 +80,7 @@ There is a React Native component called [KeyboardAvoidingView](https://facebook
 
 - Make the chat screen behave more like a "traditional" chat with the message box at the bottom and new messages appearing on bottom as well.
 
-#### EventScreen.js
+#### [EventScreen.js](https://github.com/Sukeltaja-App/sukeltaja-frontend/blob/master/src/components/OngoingEventScreens/OngoingEventTabs/EventScreen.js)
 
 <img src="images/EventScreen.png" width="200">
 
@@ -100,7 +100,7 @@ The main purpose of the map is of course to assist in navigation, but the map co
 
 The map was developed using [react-native-maps-super-cluster](https://github.com/novalabio/react-native-maps-super-cluster).
 
-#### MapScreen.js
+#### [MapScreen.js](https://github.com/Sukeltaja-App/sukeltaja-frontend/blob/master/src/components/MapScreens/MapScreen.js)
 
 <img src="images/MapScreen.png" width="200">
 
@@ -129,23 +129,23 @@ This is a list of all the events the user is in. Clicking on an event goes to th
 
 This is probably not the most intuitive way to change the ongoing event. It would be better at least to be able to choose the ongoing event from the "Sukellus" tab itself ("Valitse tapahtuma").
 
-### ![Käyttäjä](images/kayttaja.png)[ Käyttäjä (User)](https://github.com/Sukeltaja-App/sukeltaja-frontend/tree/master/src/components/ProfileScreens)
+### ![Käyttäjä](images/kayttaja.png)[ Käyttäjä (User)](https://github.com/Sukeltaja-App/sukeltaja-frontend/tree/master/src/components/ProfileScreens/ProfileTabs)
 
 In this tab the user can see and edit information about their profile and settings.
 
-#### ProfileScreen.js
+#### [ProfileScreen.js](https://github.com/Sukeltaja-App/sukeltaja-frontend/blob/master/src/components/ProfileScreens/ProfileTabs/ProfileScreen.js)
 
 <img src="images/ProfileScreen.png" width="200">
 
 Nothing special, there could be a profile picture here and a way to change password, username, and so on. Maybe add the number of dives you've done, your dive club, etc.
 
-#### [InvitesScreen.js](https://github.com/Sukeltaja-App/sukeltaja-frontend/blob/master/src/components/ProfileScreens/InvitesScreen.js)
+#### [InvitesScreen.js](https://github.com/Sukeltaja-App/sukeltaja-frontend/blob/master/src/components/ProfileScreens/ProfileTabs/InvitesScreen.js)
 
 <img src="images/InvitesScreen.png" width="200">
 
 Self-explanatory. The button should not be needed anymore due to WebSockets handling user invitations, however for now it was left to still be there.
 
-#### SettingsScreen.js
+#### [SettingsScreen.js](https://github.com/Sukeltaja-App/sukeltaja-frontend/blob/master/src/components/ProfileScreens/ProfileTabs/SettingsScreen.js)
 
 <img src="images/SettingsScreen.png" width="200">
 
