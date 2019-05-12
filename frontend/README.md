@@ -13,6 +13,8 @@
 
 [More in-depth documentation and known issues here](frontend.md).
 
+[Documentation about the user interface (looks) here](user_interface.md).
+
 ## ℹ General information
 
 The frontend is developed using [React Native](https://facebook.github.io/react-native/) and [Expo](https://expo.io/).
