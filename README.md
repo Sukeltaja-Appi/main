@@ -33,4 +33,4 @@ Documents for this project can be found here.
 * [Backend documentation](backend)
 * [Frontend documentation](frontend)
      
-* Product backlog can be found on these [Google Sheets](https://docs.google.com/spreadsheets/d/1u03KFYHHtcJAUbRn-JUiW5gUus9soZLCMObtdGLhcyA/)  
+* Product backlog can be found on these [Google Sheets](https://docs.google.com/spreadsheets/d/12R7Eyg8GfjwaTioiXE2EIYMrVciJc61XiFn1YNzCHeo/edit#gid=0)  
