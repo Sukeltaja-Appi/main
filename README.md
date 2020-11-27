@@ -23,7 +23,7 @@ App Store (iOS) will be added in future.
 * [Frontend](https://github.com/Sukeltaja-Appi/sukeltaja-frontend) [![Build Status](https://travis-ci.org/Sukeltaja-App/sukeltaja-frontend.svg?branch=master)](https://travis-ci.org/Sukeltaja-App/sukeltaja-frontend)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/05aa734a6b744870b2c4312c18d6c562)](https://app.codacy.com/app/luupanu/sukeltaja-frontend?utm_source=github.com&utm_medium=referral&utm_content=Sukeltaja-App/sukeltaja-frontend&utm_campaign=Badge_Grade_Dashboard)
 [![Codacy Badge](https://api.codacy.com/project/badge/Coverage/da118659491a49c49c4f9ff01c22ea13)](https://www.codacy.com/app/luupanu/sukeltaja-frontend?utm_source=github.com&utm_medium=referral&utm_content=Sukeltaja-App/sukeltaja-frontend&utm_campaign=Badge_Coverage)
-- Programmed with [React Native](https://reactnative.dev/) + [Expo client](https://expo.io/).
+  - Programmed with [React Native](https://reactnative.dev/) + [Expo client](https://expo.io/).
 
 * [Backend](https://github.com/Sukeltaja-Appi/sukeltaja-backend) [![Build Status](https://travis-ci.org/Sukeltaja-App/sukeltaja-backend.svg?branch=master)](https://travis-ci.org/Sukeltaja-App/sukeltaja-backend)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/a73bbac9673a473092af6fa884489501)](https://app.codacy.com/app/luupanu/sukeltaja-backend?utm_source=github.com&utm_medium=referral&utm_content=Sukeltaja-App/sukeltaja-backend&utm_campaign=Badge_Grade_Settings)
