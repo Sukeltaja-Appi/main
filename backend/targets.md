@@ -2,7 +2,7 @@
 
 [Link to Museovirasto target data](https://www.museovirasto.fi/fi/palvelut-ja-ohjeet/tietojarjestelmat/kulttuuriympariston-tietojarjestelmat/kulttuuriympaeristoen-paikkatietoaineistot)
 
-The current target data in the backend is parsed from a `.dbf` file obtained from Museovirasto. The [tools folder](https://github.com/Sukeltaja-App/tools/blob/master/parse_mj_rekisteri/) has a parsed [targets.json](https://github.com/Sukeltaja-App/tools/blob/master/parse_mj_rekisteri/targets.json) file that is directly compatible with the backend.
+The current target data in the backend is parsed from a `.dbf` file obtained from Museovirasto. The [tools folder](https://github.com/Sukeltaja-Appi/tools/blob/master/parse_mj_rekisteri/) has a parsed [targets.json](https://github.com/Sukeltaja-Appi/tools/blob/master/parse_mj_rekisteri/targets.json) file that is directly compatible with the backend.
 
 ## 💾 The Museovirasto WFS Server
 

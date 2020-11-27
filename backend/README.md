@@ -2,7 +2,7 @@
 
 ## 🐘 Quick start
 
-1. `git clone https://github.com/Sukeltaja-App/sukeltaja-backend.git`
+1. `git clone https://github.com/Sukeltaja-Appi/sukeltaja-backend.git`
 2. `cd sukeltaja-backend`
 3. `npm install`
 4. `npm run watch`
@@ -11,8 +11,8 @@
 
 The back office runs on top of the backend. Building was done manually:
 
-1. `git clone https://github.com/Sukeltaja-App/sukeltaja-bo.git`
-2. `git clone https://github.com/Sukeltaja-App/sukeltaja-backend.git`
+1. `git clone https://github.com/Sukeltaja-Appi/sukeltaja-bo.git`
+2. `git clone https://github.com/Sukeltaja-Appi/sukeltaja-backend.git`
 3. `cd sukeltaja-bo`
 4. `npm build`
 5. `mv build/ ../sukeltaja-backend/`
@@ -35,7 +35,7 @@ Tools and frameworks used for backend:
 ### Miscellanneous information
 
 * Backend currently runs on [Heroku](https://www.heroku.com/). The data is stored in MongoDB @ [MongoDB Atlas](https://www.mongodb.com/).
-* [Back office](https://github.com/Sukeltaja-App/sukeltaja-bo) (browser-frontend) build runs at backend root.
+* [Back office](https://github.com/Sukeltaja-Appi/sukeltaja-bo) (browser-frontend) build runs at backend root.
 * Enviroment variables are loaded with [dotenv](https://www.npmjs.com/package/dotenv) from an .env file. These values are used and set at config.js file for backend. From there, you can check what you need to provide.
 * Tokens are created with [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken).
 

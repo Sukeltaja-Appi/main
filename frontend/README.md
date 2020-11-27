@@ -4,7 +4,7 @@
 
 1. Install Expo Client from your favorite app store ([Google Play](https://play.google.com/store/apps/details?id=host.exp.exponent)) ([App Store](https://itunes.apple.com/us/app/expo-client/id982107779))
 2. Make sure you're in the same wireless connection with your phone and the computer running the local frontend server
-3. `git clone https://github.com/Sukeltaja-App/sukeltaja-frontend.git`
+3. `git clone https://github.com/Sukeltaja-Appi/sukeltaja-frontend.git`
 4. `cd sukeltaja-frontend`
 5. `npm install`
 6. `npm start`
