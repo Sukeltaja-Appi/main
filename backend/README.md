@@ -42,7 +42,6 @@ Tools and frameworks used for backend:
 ## 🙉 Testing
 
 * Testing the backend is done with [supertest](https://www.npmjs.com/package/supertest).
-* Testing currently uses a real database @ [MongoDB Atlas](https://www.mongodb.com/), and sometimes fails when two sets of same tests run simultaneously. (Eg. pull requests testing current branch + merge branch)
 * Tests create and store mock data to database before and during the tests.
 
 ## 🌍 Target data
